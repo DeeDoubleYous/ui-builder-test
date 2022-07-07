@@ -1,5 +1,12 @@
-{
-    "id": "test",
-    "itemType": "button",
-    "itemValue": "testButton"
-}
+[
+    {
+        "id": "test",
+        "itemType": "button",
+        "itemValue": "testButton"
+    },
+    {
+        "id": "test",
+        "itemType": "label",
+        "itemValue": "beans"
+    }
+]
