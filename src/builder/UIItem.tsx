@@ -1,7 +1,7 @@
 import React, {FunctionComponent, ReactElement} from "react";
-import { UIItem } from "../App";
+import { IUIItem } from "../App";
 
-export const UIBuilder:FunctionComponent<UIItem> = (item): ReactElement => {
+export const UIItem:FunctionComponent<IUIItem> = (item): ReactElement => {
     let returnItem = <div></div>
 
     switch(item.itemType){
