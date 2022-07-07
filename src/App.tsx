@@ -1,7 +1,4 @@
-import { useEffect, useState } from 'react';
-// import './App.css';
-import { UIItem } from './builder/UIItem';
-import { IUIItem, UIBuilder } from './builder/UIBuilder';
+import { UIBuilder } from './builder/UIBuilder';
 
 function App() {
   return (

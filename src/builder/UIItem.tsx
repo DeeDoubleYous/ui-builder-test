@@ -2,7 +2,7 @@ import React, {FunctionComponent, ReactElement} from "react";
 import { IUIItem } from "./UIBuilder";
 
 export const UIItem:FunctionComponent<IUIItem> = (item): ReactElement => {
-    let returnItem = <div></div>
+    let returnItem = <div></div>;
 
     switch(item.itemType){
         case "button":

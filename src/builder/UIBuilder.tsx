@@ -15,7 +15,7 @@ export const UIBuilder: FunctionComponent = (): ReactElement => {
         <div>
             {
                 uiItem.map(item => 
-                    <UIItem {...item}/>    
+                    <UIItem key={item.id} {...item}/>
                 )
             }
         </div>

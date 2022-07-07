@@ -1,11 +1,11 @@
 [
     {
-        "id": "test",
+        "id": "test1",
         "itemType": "button",
         "itemValue": "testButton"
     },
     {
-        "id": "test",
+        "id": "test2",
         "itemType": "label",
         "itemValue": "beans"
     }
